@@ -1,0 +1,43 @@
+body {
+	height: 100vh;
+	background: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+i {
+	color: white;
+}
+
+.bg-dark {
+	background-color: black !important;
+}
+
+.navbar {
+	padding: 20px 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.input-group-text {
+	background-color: #FF1493;
+	border: none;
+	color: white;
+}
+
+.input-group-text:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.alert {
+    background: #FF1493;
+    color: white;
+}
