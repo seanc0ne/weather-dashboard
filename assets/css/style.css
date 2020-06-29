@@ -13,6 +13,10 @@ i {
 	color: white;
 }
 
+.mt-5 {
+    color: #FF1493;
+}
+
 .bg-dark {
 	background-color: black !important;
 }
@@ -40,4 +44,81 @@ i {
 .alert {
     background: #FF1493;
     color: white;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.uv-index-low {
+	padding: 3px;
+	background-color: green;
+	border-radius: 3px;
+	color: black;
+}
+
+.uv-index-moderate {
+	padding: 3px;
+	background-color: yellow;
+	border-radius: 3px;
+	color: black;
+}
+
+.uv-index-high {
+	padding: 3px;
+	background-color: orange;
+	border-radius: 3px;
+	color: black;
+}
+
+.uv-index-very-high {
+	padding: 3px;
+	background-color: red;
+	border-radius: 3px;
+	color: black;
+}
+
+.uv-index-extreme {
+	padding: 3px;
+	background-color: violet;
+	border-radius: 3px;
+	color: black;
+}
+
+ul .list-group-item {
+	text-transform: capitalize;
+	transition: all 0.2s;
+}
+
+ul .list-group-item:hover {
+	cursor: pointer;
+	background-color: #FF1493;
+    color: white;
+    font-weight: bold;
+}
+
+i.today {
+	margin: 10px auto;
+	font-size: 60px;
+}
+
+.wi {
+	margin: 10px auto;
+	font-size: 1.5em;
+}
+
+.alert {
+	display: none;
+}
+
+.temp-list li {
+	color: white;
+}
+
+@media screen and (max-width: 990px) {
+	body {
+		height: 100%;
+	}
 }
