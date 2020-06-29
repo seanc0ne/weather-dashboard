@@ -1,6 +1,6 @@
 let APIkey = '506c4e6b64f3b4c0e8dbee95e27e6e43'
 
-let cities = ['san miguel de allende', 'osaka', 'chattanooga', 'canberra', 'new delhi'];
+let cities = ['san miguel de allende', 'osaka', 'chattanooga', 'canberra', 'kyoto'];
 
 function renderCities() {
     $('.list-group').empty();
