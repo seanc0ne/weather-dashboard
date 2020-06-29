@@ -116,7 +116,6 @@ function getForecast() {
             let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
             let name = days[date.getDay()];
 
-            // This condition makes sure to only get a day of the week that starts at '15:00:00' hours thus it gives you five days. 
             if (res.list[i].dt_txt.indexOf("15:00:00") !== -1) {
                 let forecastContainer = $(`<div class="col-lg-2 forecast-container mr-3">
                     <h5 class="mt-5">${name}</h5>
