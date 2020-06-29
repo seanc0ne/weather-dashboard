@@ -83,7 +83,7 @@ function getCityWeather() {
         })
         $('#today').empty();
         let todaysContainer = $(`
-            <h3 class="mt-5 city-heading">${res.name} -  ${moment().format('dddd MMM D YYYY')} </h3>
+            <h3 class="mt-5 city-heading">${res.name} -  ${moment().format('ddd D MMM YYYY')} </h3>
             <i class="today wi ${setWeatherIcon(res.weather[0].icon)}"></i>
             <ul class="temp-list">
                 <li>Temperature: <span class="temp">${res.main.temp} F</span></li>
